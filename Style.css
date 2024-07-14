@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  span {
+    color: crimson;
+    font-size: 20px;
+  }
+  .name {
+    font-size: 40px;
+  }
+
+  .intro {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+  }
+
+  .intro-content {
+    max-width: 500px;
+  }
+  .intro-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+  }
+  .intro-content p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px 0 30px;
+  }
+  .intro-content button {
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(71, 2, 71);
+    color: white;
+  }
+  .intro-content button:hover {
+    background: orangered;
+    color: white;
+  }
+  .imgb img {
+    border-radius: 50%;
+    width: 350px;
+    height: 300px;
+    position: relative;
+    right: 30px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: orangered;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+  }
+
+  .about {
+    width: 100%;
+    min-height: 101vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12%;
+  }
+  .about-img img {
+    position: relative;
+    width: 350px;
+    left: 30px;
+    box-shadow: 0 0 25px orangered, 0 0 50px orangered;
+    border-radius: 50%;
+  }
+  .about-content {
+    max-width: 800px;
+  }
+  .about-content h2 {
+    font-size: 42px;
+    color: wheat;
+  }
+  .about-content h3 {
+    font-size: 62px;
+    color: wheat;
+  }
+  .about-content p {
+    color: wheat;
+    font-size: 20px;
+  }
+
+  .skill-img img {
+    border-radius: 10px;
+  }
+
+  .contact1 {
+    background: darkviolet;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: relative;
+    top: -20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+  }
+  .contact1:hover {
+    background: orangered;
+    color: white;
+  }
+  .project {
+    background: orangered;
+  }
+  .social a:hover {
+    color: orangered;
+  }
